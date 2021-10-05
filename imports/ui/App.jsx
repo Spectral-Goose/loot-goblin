@@ -31,7 +31,6 @@ export const App = () => {
             <div className="user" onClick={logout}>
               {user.username} 🚪
            </div>
-            <ItemForm/>
             
             <ul className="items">
               { items.map(item => (
@@ -42,6 +41,7 @@ export const App = () => {
                 />
               ))}
             </ul>
+            <ItemForm/>
           </Fragment>
         ) : (
           <LoginForm />
