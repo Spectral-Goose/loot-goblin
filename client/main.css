@@ -122,9 +122,28 @@ header {
   flex-grow: 1;
 }
 
-.items > li > button {
+/* 
+    INCREASE VERTICAL PX BETWEEN ELEMENTS OF TABLE
+*/
+
+#other {
+  width: 200px;
+  text-align: center;
+}
+
+#name {
+  text-align: left;
+  width: 366px;
+}
+
+#delete > button {
   justify-self: flex-end;
   background-color: #ff3046;
+}
+
+#delete {
+  width: 96px;
+  text-align: center;
 }
 
 .login-form {
@@ -174,4 +193,8 @@ header {
 
   margin: 8px 16px 0;
   font-weight: bold;
+}
+
+.color-picker {
+  height: 50px;
 }

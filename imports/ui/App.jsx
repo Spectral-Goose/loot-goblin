@@ -11,7 +11,7 @@ export const App = () => {
   const user = useTracker(() => Meteor.user());
 
   // This is where Meteor pulls the items from to display. If I want to change what is show, here is where to do it.
-  const items = useTracker(() => ItemsCollection.find({}, { sort: { createdAt: -1 } }).fetch());
+  const items = useTracker(() => ItemsCollection.find({}, { sort: { createdAt: 0 } }).fetch());
   
   const logout = () => Meteor.logout();
 
@@ -20,7 +20,7 @@ export const App = () => {
       <header>
         <div className="app-bar">
           <div className="app-header">
-            <h1>RPG Inventory System</h1>
+            <h1>Loot Goblin</h1>
           </div>
         </div>
       </header>
@@ -30,9 +30,10 @@ export const App = () => {
           <Fragment>
             <div className="user" onClick={logout}>
               {user.username} 🚪
-           </div>
-            
+            </div>
+          <table>
             <ul className="items">
+              <hr></hr>
               { items.map(item => (
                 <Item
                   key={ item._id }
@@ -41,6 +42,7 @@ export const App = () => {
                 />
               ))}
             </ul>
+            </table>
             <ItemForm/>
           </Fragment>
         ) : (

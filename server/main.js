@@ -2,9 +2,14 @@ import { Meteor } from 'meteor/meteor';
 import { Accounts } from 'meteor/accounts-base';
 import { ItemsCollection } from '/imports/api/ItemsCollection';
 
-const insertItem = (itemText,user) => 
+const insertItem = (itemText, itemColor, itemLocation, itemQuantity, itemWeight, itemPrice, user) => 
   ItemsCollection.insert({
-    text: itemText,
+    name: itemText,
+    color: itemColor,
+    quantity: itemQuantity,
+    location: itemLocation,
+    weight: itemWeight,
+    price: itemPrice,
     userId: user._id,
     createdAt: new Date(),
   });
@@ -22,7 +27,7 @@ Meteor.startup(() => {
 
   const user = Accounts.findUserByUsername(SEED_USERNAME);
 
-  if(ItemsCollection.find().count() === 0) {
+/*  if(ItemsCollection.find().count() === 0) {
     [
       'Moonblade',
       'Platinum Scabbard',
@@ -32,5 +37,5 @@ Meteor.startup(() => {
       'Signet Ring of Reverie',
       'Holy Symbol',
     ].forEach(itemText => insertItem(itemText, user));
-  }
+  }*/
 });
