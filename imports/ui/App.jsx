@@ -37,31 +37,35 @@ export const App = () => {
       <div className="main">
         {user ? (
           <Fragment>
-            <div className="user" onClick={logout}>
-              {user.username} 🚪
+            <div className="user">
+              {user.username}
+              <span>&nbsp;|&nbsp;</span>
+              <span onClick={logout}>logout</span>
             </div>
-          <table>
             <ul className="items">
-            <tr>
-              <th id="hName">Item</th>
-              <th id="hOther">Location</th>
-              <th id="hOther">Quantity</th>
-              <th id="hOther">Weight Per Item</th>
-              <th id="hOther">Total Weight</th>
-              <th id="hOther">Price per Item</th>
-              <th id="hOther">Total Price</th>
-              <th id="hDelete">Remove Item</th>
-            </tr>
-              <hr></hr>
-              { items.map(item => (
-                <Item
-                  key={ item._id }
-                  item={ item }
-                  onDeleteClick={deleteItem}
-                />
-              ))}
+              <table>
+                <thead>
+                  <tr>
+                    <th>Item</th>
+                    <th>Location</th>
+                    <th>Quantity</th>
+                    <th>Weight Per Item</th>
+                    <th>Total Weight</th>
+                    <th>Sum Weight</th>
+                    <th>Price per Item</th>
+                    <th>Total Price</th>
+                    <th id="delete">Remove Item</th>
+                  </tr>
+                </thead>
+                { items.map(item => (
+                  <Item
+                    key={ item._id }
+                    item={ item }
+                    onDeleteClick={deleteItem}
+                  />
+                ))}
+              </table>
             </ul>
-            </table>
             <ItemForm/>
           </Fragment>
         ) : (

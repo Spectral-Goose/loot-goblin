@@ -63,7 +63,7 @@ button:focus {
 
 header {
   background: #d2edf4;
-  background-image: linear-gradient(to bottom, #d0edf5, #e1e5f0 100%);
+  background-image: linear-gradient(to bottom, #967bb6, #e1e5f0 100%);
   padding: 20px 15px 15px 15px;
   position: relative;
   box-shadow: 0 3px 3px rgba(34, 25, 25, 0.4);
@@ -104,7 +104,7 @@ header {
 .item-form > button {
   min-width: 100px;
   height: 95%;
-  background-color: #315481;
+  background-color: #6c5887;
 }
 
 .items {
@@ -126,40 +126,29 @@ header {
   flex-grow: 1;
 }
 
-#hName {
-  text-align: left;
-  width: 410px;
+table {
+  width: 100%;
+  font-size: 16px;
+  border-collapse: collapse;
+  border-bottom: 1px solid black;
 }
 
-#hOther {
-  width: 200px;
+table thead th {
+  border-bottom: 1px solid black;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+td {
   text-align: center;
-}
-
-#hDelete {
-  width: 96px;
-  text-align: center;
-}
-
-#other {
-  width: 200px;
-  text-align: center;
-}
-
-#name {
-  text-align: left;
-  width: 366px;
+  padding-bottom: 5px;
+  padding-top: 5px;
 }
 
 #delete > button {
   justify-self: flex-end;
   background-color: #ff3046;
   width: 25px;
-}
-
-#delete {
-  width: 96px;
-  text-align: center;
 }
 
 .login-form {
