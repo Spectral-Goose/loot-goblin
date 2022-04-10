@@ -10,17 +10,12 @@ const deleteItem = ({ _id }) => ItemsCollection.remove(_id);
 export const App = () => {
   const user = useTracker(() => Meteor.user());
 
-  // this is where Meteor pulls the items from to display. If I want to change what is show, here is where to do it.
+  // this is where Meteor pulls the items from to display. If I want to change what is shown, here is where to do it.
   const items = useTracker(() => ItemsCollection.find({}, { sort: { createdAt: 0 } }).fetch());
   
   const logout = () => Meteor.logout();
 
-/* 
-    ADD CHECKBOX FOR IF WEIGHT WILL BE COUNTED OR NOT
-    ADD FUNCTIONALITY TO SUM WEIGHT
-    ADD ABILITY TO SORT ITEMS BY VARIOUS FACTORS
-    ADD DRAG AND DROP SORTING
-
+/*
     DEPLOY TO HEROKU
 */
 
@@ -51,7 +46,6 @@ export const App = () => {
                     <th>Quantity</th>
                     <th>Weight Per Item</th>
                     <th>Total Weight</th>
-                    <th>Sum Weight</th>
                     <th>Price per Item</th>
                     <th>Total Price</th>
                     <th id="delete">Remove Item</th>
