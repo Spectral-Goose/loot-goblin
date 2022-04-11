@@ -15,10 +15,6 @@ export const App = () => {
   
   const logout = () => Meteor.logout();
 
-/*
-    DEPLOY TO HEROKU
-*/
-
   return (
     <div className="app">
       <header>
@@ -35,7 +31,7 @@ export const App = () => {
             <div className="user">
               {user.username}
               <span>&nbsp;|&nbsp;</span>
-              <span onClick={logout}>logout</span>
+              <span onClick={logout}>Logout</span>
             </div>
             <ul className="items">
               <table>
@@ -69,4 +65,3 @@ export const App = () => {
     </div>
   );
 };
-x

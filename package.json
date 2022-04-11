@@ -1,4 +1,11 @@
 {
+  "galaxy.meteor.com": {
+    "env": {
+      "ENV": "staging",
+      "MONGO_URL": "mongodb://admin:Taydyboo7567!@cluster0-shard-00-00.fln8c.mongodb.net:27017,cluster0-shard-00-01.fln8c.mongodb.net:27017,cluster0-shard-00-02.fln8c.mongodb.net:27017/loot-goblin?ssl=true&replicaSet=atlas-xxxlay-shard-0&authSource=admin&retryWrites=true&w=majority"
+    }
+  },
+
   "name": "rpg-inventory",
   "private": true,
   "scripts": {
