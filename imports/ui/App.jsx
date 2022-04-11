@@ -40,10 +40,10 @@ export const App = () => {
                     <th>Item</th>
                     <th>Location</th>
                     <th>Quantity</th>
-                    <th>Weight Per Item</th>
-                    <th>Total Weight</th>
-                    <th>Price per Item</th>
-                    <th>Total Price</th>
+                    <th>Weight Per Item (Lbs)</th>
+                    <th>Total Weight (Lbs)</th>
+                    <th>Price per Item (GP)</th>
+                    <th>Total Price (GP)</th>
                     <th id="delete">Remove Item</th>
                   </tr>
                 </thead>
