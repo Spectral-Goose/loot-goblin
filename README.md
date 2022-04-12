@@ -1,4 +1,10 @@
-How to Install Meteor and run rpg-inventory on Ubuntu.
+<h2>Welcome to Loot Goblin!</h2>
+
+<h3>How to use Loot Goblin's public deployment</h3>
+
+Navigate to https://csu-lootgoblin.meteorapp.com in your browser.<h2></h2>
+
+<h3>How to Install Meteor and run rpg-inventory on Ubuntu</h3>
 
 Step 1: Install the Meteor framework
     $ curl https://install.meteor.com/ | sh
