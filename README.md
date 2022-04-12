@@ -2,7 +2,7 @@
 
 <h3>How to use Loot Goblin's public deployment</h3>
 
-Navigate to https://csu-lootgoblin.meteorapp.com in your browser.
+Navigate to https://csu-lootgoblin.meteorapp.com in your browser.<h2></h2>
 
 <h3>How to Install Meteor and run rpg-inventory on Ubuntu</h3>
 
