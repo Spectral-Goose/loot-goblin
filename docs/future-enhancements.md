@@ -8,5 +8,6 @@
 - Add the option to have tables in the inventory database that can act like containers (such as a Bag of Holding) that would mess with weight calculations.
 
 ### Intensive Implementations ###
+- Implement proper scaling for mobile devices.
 - Implement the campaign system.
 - Implement the friend system.
