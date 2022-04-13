@@ -1,17 +1,17 @@
-### Project Languages, Software, & Hardware ###
+## Project Languages, Software, & Hardware ##
 
-## Languages ##
+### Languages ###
 - JavaScript
 - HTML
 - CSS
 
-## Software ##
+### Software ###
 - Virtual Box
 - Ubuntu 20.04
 - Meteor
 - Visual Studio Code
 
-## Hardware ##
+### Hardware ###
 - AMD Ryzen 5 5600X
 - AMD Radeon RX 5700 XT
 - 32 GB RAM
