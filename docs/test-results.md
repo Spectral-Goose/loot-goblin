@@ -89,3 +89,9 @@
 **Expected Result:** Successful logout. \
 **Actual Result:&emsp;&nbsp;** Successful logout. \
 **Status:** Passed
+
+### Test 16: Use Color Picker ###
+**Procedure:** Use the color picker to choose blue as the font color of an item to be added to the database. \
+**Expected Result:** The item is displayed with blue as the font color. \
+**Actual Result:&emsp;&nbsp;** The item is displayed with blue as the font color. \
+**Status:** Passed
