@@ -6,8 +6,9 @@ concepts. Learning how to use Meteor and learning how to develop web apps went h
 to use the framework alongside learning a few new terminal commands. I learned a basis for how to develop web apps as I learned to use the Meteor
 framewowrk.
 
-### Mongo Clusters ###
+### Mongo Clusters and Deployment ###
 
 I also researched mongo clusters and found how to use them in deploying web apps such as my own. With many resources vying to
 have you subscribe to their paid versions, researching mongo was probably the most difficult portion of my research. I was not sure which sites to
-trust and which were just glorified advertisements. However, I eventually found a free resource to fit my needs.
+trust and which were just glorified advertisements. However, I eventually found a free resource to fit my needs. I also researched multiple web app
+deployment methods, and I now better understand how these sorts of software are owned and operated.
