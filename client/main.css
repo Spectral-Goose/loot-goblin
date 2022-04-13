@@ -131,9 +131,12 @@ table {
   font-size: 16px;
   border-collapse: collapse;
   border-bottom: 1px solid black;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  margin-bottom: 50px;
 }
 
-table thead th {
+thead th {
   border-bottom: 1px solid black;
   padding-bottom: 5px;
   padding-top: 5px;
@@ -193,9 +196,7 @@ td {
 
 .user {
   display: flex;
-
   align-self: flex-end;
-
   margin: 8px 16px 0;
   font-weight: bold;
 }
