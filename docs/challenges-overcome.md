@@ -14,7 +14,7 @@ app was crashing, and I could not figure out why for a few hours.
 
 ### Technical Difficulties ###
 With technology, there will always be technical difficulties. This project has spanned multiple virutal machines as well as Github repositories.
-- During construction, the virtual machine I had been using bricked, and I due to bad Github habits, I lost a good portion of my project at that point.
+- During construction, the virtual machine I had been using bricked, and due to bad Github habits, I lost a good portion of my project at that point.
 - During defense, I had another virtual machine stop working. I spent a few hours in a rescue shell attempting to save my files while my roommate
 worked to find a way to restore the virtual machine. Eventually, he found a way to save it, and while I lost the day to work on the project, I did not
 lose my uncommitted changes. Additionally, my original Github repository corrupted. Thankfully, I had just pushed changes to Github, so I could easily
