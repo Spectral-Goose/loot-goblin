@@ -1,4 +1,4 @@
-<h2>Welcome to Loot Goblin!</h2>
+# Welcome to Loot Goblin! #
 
 ## Project Table of Contents ##
 
@@ -12,11 +12,11 @@
 - [Challenges Overcome](/docs/challenges-overcome.md)
 - [Future Enhancements](/docs/future-enhancements.md)
 
-<h3>How to use Loot Goblin's public deployment</h3>
+## How to use Loot Goblin's public deployment ##
 
-Navigate to https://csu-lootgoblin.meteorapp.com in your browser.<h2></h2>
+Navigate to https://csu-lootgoblin.meteorapp.com in your browser.
 
-<h3>How to Install Meteor and run rpg-inventory on Ubuntu</h3>
+## How to Install Meteor and run rpg-inventory on Ubuntu ##
 
 Step 1: Install the Meteor framework
     $ curl https://install.meteor.com/ | sh
