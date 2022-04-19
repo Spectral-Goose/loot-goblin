@@ -1,5 +1,17 @@
 <h2>Welcome to Loot Goblin!</h2>
 
+## Project Table of Contents ##
+
+- [Statement of Purpose](/docs/statement-of-purpose.md)
+- [Research & Background](/docs/research-and-background.md)
+- [Project Languages, Software, and Hardware](/docs/project-languages-software-and-hardware.md)
+- [Project Requirements](/docs/project-requirements.md)
+- [Project Implementation Description & Explanation](/docs/project-implementation-description-and-explanation.md)
+- [Test Plan](/docs/test-plan.md)
+- [Test Results](/docs/test-results.md)
+- [Challenges Overcome](/docs/challenges-overcome.md)
+- [Future Enhancements](/docs/future-enhancements.md)
+
 <h3>How to use Loot Goblin's public deployment</h3>
 
 Navigate to https://csu-lootgoblin.meteorapp.com in your browser.<h2></h2>
