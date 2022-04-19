@@ -18,7 +18,7 @@ Navigate to https://csu-lootgoblin.meteorapp.com in your browser.
 
 ## How to Install Meteor and run Loot Goblin on Ubuntu ##
 
-Step 1: Install the Meteor framework
+Step 1: Install the Meteor framework \
     `$ curl https://install.meteor.com/ | sh`
 
 Step 2: Install @babel/runtime. This package is necessary for the project to run. You might also be prompted to run a fix for the package. \
