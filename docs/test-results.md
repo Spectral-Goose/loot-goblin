@@ -61,19 +61,19 @@
 **Status:** Passed
 
 ### Test 11: Use Quantity Incremental Arrows with Original Value ###
-**Procedure:** Use the incremental arrows to increase quantity with "5" as the inital value in the field. \
+**Procedure:** Use the incremental arrows to increase quantity with "5" as the initial value in the field. \
 **Expected Result:** "6" now populates the field, and the arrows continue to increment or decrement the value. \
 **Actual Result:&emsp;&nbsp;** "6" now populates the field, and the arrows continue to increment or decrement the value. \
 **Status:** Passed
 
 ### Test 12: Use Weight Incremental Arrows with Original Value ###
-**Procedure:** Use the incremental arrows to increase weight with "5" as the inital value in the field. \
+**Procedure:** Use the incremental arrows to increase weight with "5" as the initial value in the field. \
 **Expected Result:** "6" now populates the field, and the arrows continue to increment or decrement the value. \
 **Actual Result:&emsp;&nbsp;** "6" now populates the field, and the arrows continue to increment or decrement the value. \
 **Status:** Passed
 
 ### Test 13: Use Price Incremental Arrows with Original Value ###
-**Procedure:** Use the incremental arrows to increase price with "5" as the inital value in the field. \
+**Procedure:** Use the incremental arrows to increase price with "5" as the initial value in the field. \
 **Expected Result:** "6" now populates the field, and the arrows continue to increment or decrement the value. \
 **Actual Result:&emsp;&nbsp;** "6" now populates the field, and the arrows continue to increment or decrement the value. \
 **Status:** Passed
