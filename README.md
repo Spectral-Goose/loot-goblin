@@ -11,6 +11,7 @@
 - [Test Results](/docs/test-results.md)
 - [Challenges Overcome](/docs/challenges-overcome.md)
 - [Future Enhancements](/docs/future-enhancements.md)
+- [Presentation Slides](/docs/loot-goblin.pdf)
 
 ## How to use Loot Goblin's public deployment ##
 
