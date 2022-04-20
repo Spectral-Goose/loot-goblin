@@ -7,7 +7,7 @@
 **Status:** Passed
 
 ### Test 2: Login with Incorrect Password ###
-**Procedure:** Use the admin username to lon into Loot Goblin, but use the wrong password. \
+**Procedure:** Use the admin username to log into Loot Goblin, but use the wrong password. \
 **Expected Result:** Unsuccessful login. \
 **Actual Result:&emsp;&nbsp;** Unsuccessful login. \
 **Status:** Passed
