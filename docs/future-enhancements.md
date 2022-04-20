@@ -1,6 +1,6 @@
 ## Future Enhancements ##
 
-### Small Fixes ###
+### Small Fixes and Additions ###
 - Fix the user sign-up system.
 - Add methods to sort the database by name, weight, and price.
 - Add functionality to sum the weight of an inventory.
