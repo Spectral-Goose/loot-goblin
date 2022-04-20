@@ -26,20 +26,20 @@
 
 ### Test 5: Add Item with Incorrect Quantity Input Format ###
 **Procedure:** Add an item to the database following the correct input types for each field, but use a string for the quantity. \
-**Expected Result:** Insertion into datanase unsuccessful. \
-**Actual Result:&emsp;&nbsp;** Insertion into datanase unsuccessful. \
+**Expected Result:** Insertion into database unsuccessful. \
+**Actual Result:&emsp;&nbsp;** Insertion into database unsuccessful. \
 **Status:** Passed
 
 ### Test 6: Add Item with Incorrect Weight Input Format ###
 **Procedure:** Add an item to the database following the correct input types for each field, but use a string for the weight. \
-**Expected Result:** Insertion into datanase unsuccessful. \
-**Actual Result:&emsp;&nbsp;** Insertion into datanase unsuccessful. \
+**Expected Result:** Insertion into database unsuccessful. \
+**Actual Result:&emsp;&nbsp;** Insertion into database unsuccessful. \
 **Status:** Passed
 
 ### Test 7: Add Item with Incorrect Price Input Format ###
 **Procedure:** Add an item to the database following the correct input types for each field, but use a string for the price. \
-**Expected Result:** Insertion into datanase unsuccessful. \
-**Actual Result:&emsp;&nbsp;** Insertion into datanase unsuccessful. \
+**Expected Result:** Insertion into database unsuccessful. \
+**Actual Result:&emsp;&nbsp;** Insertion into database unsuccessful. \
 **Status:** Passed
 
 ### Test 8: Use Quantity Incremental Arrows with no Original Value ###
